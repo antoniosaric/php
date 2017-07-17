@@ -5,13 +5,8 @@ createUser();
 
 ?>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Passwordm</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  </head>
-  <body>
+<?php include 'includes/header.php' ?>
+
     <div class="container">
       <div class="col-sm-6">
       <h1 class="text-center">Create</h1>
@@ -28,5 +23,4 @@ createUser();
         </form>
       </div>
     </div>
-  </body>
-</html>
+<?php include 'includes/header.php' ?>

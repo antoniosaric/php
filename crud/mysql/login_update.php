@@ -7,13 +7,8 @@ include 'function.php';
 
 ?>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Password</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  </head>
-  <body>
+<?php include 'includes/header.php' ?>
+
     <div class="container">
       <div class="col-sm-6">
       <h1 class="text-center">Update</h1>
@@ -39,5 +34,4 @@ include 'function.php';
 
       </div>
     </div>
-  </body>
-</html>
+<?php include 'includes/footer.php' ?>
