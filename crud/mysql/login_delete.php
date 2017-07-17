@@ -3,9 +3,7 @@ include 'function.php';
 
 ?>
 <?php
-  if(isset($_POST['submit'])){
     deleteUser();
-}
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +15,7 @@ include 'function.php';
   <body>
     <div class="container">
       <div class="col-sm-6">
+      <h1 class="text-center">Delete</h1>
         <form action="login_delete.php" method="POST">
             <div class="form-group">
             <label for="username">Username</label>
