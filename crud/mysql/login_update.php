@@ -3,9 +3,8 @@ include 'function.php';
 
 ?>
 <?php
-  if(isset($_POST['submit'])){
     updateTable();
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +16,7 @@ include 'function.php';
   <body>
     <div class="container">
       <div class="col-sm-6">
+      <h1 class="text-center">Update</h1>
         <form action="login_update.php" method="POST">
             <div class="form-group">
             <label for="username">Username</label>
